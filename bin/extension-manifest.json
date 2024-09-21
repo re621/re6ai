@@ -32,8 +32,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://e621.net/*",
-                "https://e926.net/*"
+                "https://e6ai.net/*"
             ],
             "css": [],
             "js": [],
@@ -62,7 +61,7 @@
         "tabs",
         "downloads",
         "https://api.github.com/*",
-        "https://static1.e621.net/*",
+        "https://static1.e6ai.net/*",
         "https://re621.app/*"
     ],
     "resources": {

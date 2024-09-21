@@ -579,7 +579,7 @@ export namespace PostData {
         data["preview"] = {
             "width": -1,
             "height": -1,
-            "url": `https://static1.e621.net/data/preview/${md52}/${md52}/${md5}.jpg`
+            "url": `https://static1.e6ai.net/data/preview/${md52}/${md52}/${md5}.jpg`
         };
 
         // Fetch the user's current vote
@@ -662,13 +662,13 @@ export namespace PostData {
                 urls = {
                     preview: $article.attr("data-preview-url")
                         ? $article.attr("data-preview-url")
-                        : `https://static1.e621.net/data/preview/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`,
+                        : `https://static1.e6ai.net/data/preview/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`,
                     sample: $article.attr("data-large-file-url")    // This is horrifying.
                         ? $article.attr("data-large-file-url")      // I am truly sorry...
                         : ((width < 850 || height < 850 || extension == "gif")
-                            ? `https://static1.e621.net/data/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.${extension}`
-                            : `https://static1.e621.net/data/sample/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`),
-                    original: `https://static1.e621.net/data/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.${extension}`,
+                            ? `https://static1.e6ai.net/data/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.${extension}`
+                            : `https://static1.e6ai.net/data/sample/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`),
+                    original: `https://static1.e6ai.net/data/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.${extension}`,
                 };
             }
         }
@@ -772,8 +772,8 @@ export namespace PostData {
     export function createPreviewUrlFromMd5(md5: string): string {
         // Assume that the post is flash when no md5 is passed
         return md5 == ""
-            ? "https://static1.e621.net/images/download-preview.png"
-            : `https://static1.e621.net/data/preview/${md5.substring(0, 2)}/${md5.substring(2, 4)}/${md5}.jpg`;
+            ? "https://static1.e6ai.net/images/download-preview.png"
+            : `https://static1.e6ai.net/data/preview/${md5.substring(0, 2)}/${md5.substring(2, 4)}/${md5}.jpg`;
     }
 }
 

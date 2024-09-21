@@ -436,7 +436,7 @@ export class BetterSearch extends RE6Module {
                 this.$quickEdit.data("flags")
                     .toggleClass("display-none-important", post.flags.size == 0)
                     .html(post.flags.size > 0 ? [...post.flags].join(", ") : "");
-                this.$quickEdit.data("history").attr("href", `https://e621.net/post_versions?search[post_id]=${post.id}`);
+                this.$quickEdit.data("history").attr("href", `https://e6ai.net/post_versions?search[post_id]=${post.id}`);
 
                 this.$quickEdit.data("thumb")
                     .data("wfpost", post)

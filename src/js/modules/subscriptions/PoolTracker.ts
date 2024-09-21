@@ -188,7 +188,7 @@ export class PoolTracker extends SubscriptionTracker {
                         if (this.loadLargeThumbs) image.attr("src", getSampleLink(imageData[0], imageData[1] == "true", imageData[2]));
                     })
                     .one("error", () => {
-                        image.attr("src", "https://e621.net/images/deleted-preview.png");
+                        image.attr("src", "https://e6ai.net/images/deleted-preview.png");
                         extraData = this.slist.getExtraData(data.uid + "") || {};
                         delete extraData.data;
                         this.slist.addExtraData(data.uid + "", extraData);
@@ -232,15 +232,15 @@ export class PoolTracker extends SubscriptionTracker {
         return result;
 
         function getPreviewLink(md5: string): string {
-            if (!md5) return "https://e621.net/images/deleted-preview.png";
-            return `https://static1.e621.net/data/preview/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`;;
+            if (!md5) return "https://e6ai.net/images/deleted-preview.png";
+            return `https://static1.e6ai.net/data/preview/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`;;
         }
 
         function getSampleLink(md5: string, hasSample: boolean, ext = "jpg"): string {
-            if (!md5) return "https://e621.net/images/deleted-preview.png";
+            if (!md5) return "https://e6ai.net/images/deleted-preview.png";
             return hasSample
-                ? `https://static1.e621.net/data/sample/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`
-                : `https://static1.e621.net/data/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.${ext}`;
+                ? `https://static1.e6ai.net/data/sample/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.jpg`
+                : `https://static1.e6ai.net/data/${md5.substr(0, 2)}/${md5.substr(2, 2)}/${md5}.${ext}`;
         }
     }
 
