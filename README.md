@@ -1,17 +1,17 @@
 <div>
   <h1>RE621</h1>
   <div>
-    <a href="https://github.com/re621/re621/releases">
-      <img src="https://img.shields.io/github/v/release/re621/re621.Legacy?label=version&style=flat-square" alt="Releases">
+    <a href="https://github.com/re621/re6ai/releases">
+      <img src="https://img.shields.io/github/v/release/re621/re6ai?label=version&style=flat-square" alt="Releases">
     </a>
     <a href="https://github.com/re621/re621/issues">
-      <img src="https://img.shields.io/github/issues/re621/re621.Legacy?&style=flat-square" alt="Issues">
+      <img src="https://img.shields.io/github/issues/re621/re6ai?style=flat-square" alt="Issues">
     </a>
     <a href="https://github.com/re621/re621/pulls">
-      <img src="https://img.shields.io/github/issues-pr/re621/re621.Legacy?style=flat-square" alt="Pull Requests">
+      <img src="https://img.shields.io/github/issues-pr/re621/re6ai?style=flat-square" alt="Pull Requests">
     </a>
     <a href="https://github.com/re621/re621/releases/latest/download/script.user.js">
-      <img src="https://img.shields.io/github/downloads/re621/re621.Legacy/total?style=flat-square" alt="Download">
+      <img src="https://img.shields.io/github/downloads/re621/re6ai/total?style=flat-square" alt="Download">
     </a>
   </div>
 </div>
@@ -24,8 +24,8 @@ It consists of several different modules that enhance the entire site, top to bo
 The project is delivered via a userscript. This means that you need a script manager, such as [Tampermonkey](https://tampermonkey.net/).  
 With a script manager installed, click on the following link and follow the instructions on the new page.
 
-<a href="https://github.com/re621/re621.Legacy/releases/latest/download/script.user.js">
-  <img src="https://img.shields.io/github/v/release/re621/re621.Legacy?label=Install&style=for-the-badge">
+<a href="https://github.com/re621/re6ai/releases/latest/download/script.user.js">
+  <img src="https://img.shields.io/github/v/release/re621/re6ai?label=Install&style=for-the-badge">
 </a>
 
 ## Features
