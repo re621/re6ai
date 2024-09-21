@@ -61,8 +61,7 @@ export class TitleCustomizer extends RE6Module {
 
         return prefix + this.fetchSettings("template")
             .replace(/%postid%/g, this.post.id)
-            .replace(/%artist%/g, tagSetToString(this.post.tags.real_artist))
-            .replace(/%copyright%/g, tagSetToString(this.post.tags.copyright))
+            .replace(/%artist%/g, tagSetToString(this.post.tags.real_director))
             .replace(/%character%/g, tagSetToString(this.post.tags.character))
             .replace(/%species%/g, tagSetToString(this.post.tags.species))
             .replace(/%general%/g, tagSetToString(this.post.tags.general))
