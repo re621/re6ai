@@ -1,5 +1,5 @@
 <div>
-  <h1>RE621</h1>
+  <h1>re6ai</h1>
   <div>
     <a href="https://github.com/re621/re6ai/releases">
       <img src="https://img.shields.io/github/v/release/re621/re6ai?label=version&style=flat-square" alt="Releases">
@@ -16,7 +16,7 @@
   </div>
 </div>
 
-RE621 is a comprehensive project created to improve the basic user experience while browsing e621.net.  
+RE6ai is a comprehensive project created to improve the basic user experience while browsing e621.net.  
 It consists of several different modules that enhance the entire site, top to bottom - literally.
 
 ## Installation
@@ -35,7 +35,7 @@ For a complete feature overview visit the projects website, found under [re621.a
 ## Contributing
 
 Contributions are always welcome.  
-For bug reports, suggestions, and feature requests, head on over to the [issue tracker](https://github.com/re621/re621.Legacy/issues).
+For bug reports, suggestions, and feature requests, head on over to the [issue tracker](https://github.com/re621/re6ai/issues).
 
 ## Building the Script
 

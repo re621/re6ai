@@ -47,14 +47,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/re621/re621.Legacy.git"
+        "url": "git+https://github.com/re621/re6ai.git"
     },
     "license": "GPLv3",
     "bugs": {
-        "url": "https://github.com/re621/re621.Legacy/issues"
+        "url": "https://github.com/re621/re6ai/issues"
     },
     "homepage": "https://e621.net/forum_topics/25872",
-    "github": "https://github.com/re621/re621.Legacy",
+    "github": "https://github.com/re621/re6ai",
     "dependencies": {
         "jquery": "^3.6.0",
         "jquery-ui": "^1.13.2"
