@@ -30,7 +30,7 @@ switch (mode) {
     case "injector": {
         // Injector script
         header = header
-            .replace(/(\/\/ @name[ ]+)(.+)/, "$1re621 Injector")
+            .replace(/(\/\/ @name[ ]+)(.+)/, "$1re6ai Injector")
             .replace(/\/\/ @updateURL.*\n/, "")
             .replace(/\/\/ @downloadURL.*\n/, "")
             .replace(/(\/\/ @resource[ ]+re621_css )(.+)/, browser == "chrome" ? "$1file://" + __dirname + "\\..\\build\\userscript\\style.min.css" : "$1http://localhost:7000/style.min.css");

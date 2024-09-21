@@ -9,8 +9,7 @@
     "homepageURL": "%HOMEPAGE%",
     "contributionURL": "https://ko-fi.com/bitwolfy",
     "match": [
-        "https://e621.net/*",
-        "https://e926.net/*"
+        "https://e6ai.net/*"
     ],
     "updateURL": "%GITHUB%/releases/latest/download/script.meta.js",
     "downloadURL": "%GITHUB%/releases/latest/download/script.user.js",
