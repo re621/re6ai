@@ -1,8 +1,9 @@
+@use "sass:string";
 // Utility functions
 
 //UTF-8 fuckery: https://github.com/sass/sass/issues/1395
 @function unicode($str) {
-    @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"");
+    @return string.unquote("\"")+string.unquote(string.insert($str, "\\", 1))+string.unquote("\"");
 }
 
 @function placeholderBG($color) {
