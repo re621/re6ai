@@ -1,4 +1,4 @@
-// E621 API Endpoint Wrapper
+// e6ai API Endpoint Wrapper
 // Version 2.1
 
 import { Debug } from "../utility/Debug";
@@ -7,8 +7,8 @@ import { APIResponse } from "./responses/APIResponse";
 
 // All endpoints must be registered here.
 // Name is irrelevant, as long as it is unique.
-// Path is the endpoint address, without https://e621.net/
-// Don't forget to update the name in the E621 aliases below
+// Path is the endpoint address, without https://e6ai.net/
+// Don't forget to update the name in the e6ai aliases below
 const ENDPOINT_DEFS: EndpointDefinition[] = [
   { name: "posts", path: "posts.json", node: "posts" },
   { name: "post", path: "posts/%ID%.json", node: "post" },
@@ -31,7 +31,7 @@ const ENDPOINT_DEFS: EndpointDefinition[] = [
 
   { name: "users", path: "users.json" },
   { name: "user", path: "users/%ID%.json" },
-  { name: "blips", path: "blips.json" },
+  // { name: "blips", path: "blips.json" }, // e6ai currently doesn't have blips
   { name: "wiki_pages", path: "wiki_pages.json" },
 
   { name: "comments", path: "comments.json" },
@@ -274,7 +274,7 @@ export class E621 {
 
   public static User = E621.getEndpoint("user");
 
-  public static Blips = E621.getEndpoint("blips");
+  // public static Blips = E621.getEndpoint("blips");
 
   public static Wiki = E621.getEndpoint("wiki_pages");
 

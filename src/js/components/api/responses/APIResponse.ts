@@ -1,5 +1,5 @@
 /**
- * Generic response from the e621 API.
+ * Generic response from the e6ai API.
  * Other responses should extend this for proper typecasting.
  */
 export interface APIResponse {

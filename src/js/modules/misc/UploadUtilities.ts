@@ -19,7 +19,7 @@ export class UploadUtilities extends RE6Module {
     return {
       enabled: true,
 
-      checkDuplicates: true,      // run uploads through e621's version of IQDB
+      checkDuplicates: true,      // run uploads through e6ai's version of IQDB
       addSourceLinks: true,       // improve source links fields somewhat
       cleanSourceLinks: true,     // convert linkst to https and remove the www
       loadImageData: false,       // load image headers to get extra data

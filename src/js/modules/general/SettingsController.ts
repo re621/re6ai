@@ -1399,7 +1399,7 @@ export class SettingsController extends RE6Module {
           Form.checkbox(
             {
               value: uploadUtilities.fetchSettings("checkDuplicates"),
-              label: `<b>Check Duplicates</b><br />Search for visually similar images on e621 when uploading`,
+              label: `<b>Check Duplicates</b><br />Search for visually similar images on e6ai when uploading`,
               width: 2,
             },
             async (data) => {

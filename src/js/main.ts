@@ -1,5 +1,5 @@
 /**
- * RE621 - E621 Reimagined
+ * Re6ai - e6ai Reimagined
  * Script root. Better keep this place tidy.
  */
 

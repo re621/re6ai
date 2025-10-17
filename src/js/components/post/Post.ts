@@ -602,7 +602,7 @@ export namespace PostData {
     data["preview"] = {
       "width": -1,
       "height": -1,
-      "url": `https://static1.e621.net/data/preview/${md52}/${md52}/${md5}.jpg`,
+      "url": `https://static1.e6ai.net/data/preview/${md52}/${md52}/${md5}.jpg`,
     };
 
     // Fetch the user's current vote
@@ -754,8 +754,8 @@ export namespace PostData {
   export function createPreviewUrlFromMd5 (md5: string): string {
     // Assume that the post is flash when no md5 is passed
     return md5 == ""
-      ? "https://static1.e621.net/images/download-preview.png"
-      : `https://static1.e621.net/data/preview/${md5.substring(0, 2)}/${md5.substring(2, 4)}/${md5}.jpg`;
+      ? "https://static1.e6ai.net/images/download-preview.png"
+      : `https://static1.e6ai.net/data/preview/${md5.substring(0, 2)}/${md5.substring(2, 4)}/${md5}.jpg`;
   }
 }
 

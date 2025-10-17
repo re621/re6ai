@@ -88,7 +88,7 @@ export class DownloadQueue {
       return this.zip.generateAsync({
         type: "blob",
         compression: "STORE",
-        comment: "Downloaded from e621 on " + new Date().toUTCString(),
+        comment: "Downloaded from e6ai on " + new Date().toUTCString(),
       }, onArchiveProgress);
     });
   }
