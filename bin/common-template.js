@@ -9,7 +9,7 @@ window.re621 = new function () {
     repository: "%GITHUB%",
     issues: "%GITHUB%/issues/",
     releases: "%GITHUB%/releases",
-    forum: "https://e621.net/forum_topics/25872",
+    forum: "https://e6ai.net/forum_topics/227",
   };
   this.useragent = "%NAME%/%VERSION%";
   this.privacy = "%PRIVACY%";
