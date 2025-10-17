@@ -3,7 +3,7 @@
     "displayName": "re6ai - e6ai Reimagined",
     "namespace": "re6ai.re621.app",
     "version": "1.0.8",
-    "description": "Subscription manager, mass downloader, thumbnail enhancer, and more for e621",
+    "description": "Subscription manager, mass downloader, thumbnail enhancer, and more for e6ai",
     "author": "bitWolfy",
     "contributors": [
         "bitWolfy",
@@ -53,7 +53,7 @@
     "bugs": {
         "url": "https://github.com/re621/re6ai/issues"
     },
-    "homepage": "https://e621.net/forum_topics/25872",
+    "homepage": "https://e6ai.net/forum_topics/227",
     "github": "https://github.com/re621/re6ai",
     "dependencies": {
         "jquery": "^3.6.0",

@@ -4,13 +4,13 @@
     <a href="https://github.com/re621/re6ai/releases">
       <img src="https://img.shields.io/github/v/release/re621/re6ai?label=version&style=flat-square" alt="Releases">
     </a>
-    <a href="https://github.com/re621/re621/issues">
+    <a href="https://github.com/re621/re6ai/issues">
       <img src="https://img.shields.io/github/issues/re621/re6ai?style=flat-square" alt="Issues">
     </a>
-    <a href="https://github.com/re621/re621/pulls">
+    <a href="https://github.com/re621/re6ai/pulls">
       <img src="https://img.shields.io/github/issues-pr/re621/re6ai?style=flat-square" alt="Pull Requests">
     </a>
-    <a href="https://github.com/re621/re621/releases/latest/download/script.user.js">
+    <a href="https://github.com/re621/re6ai/releases/latest/download/script.user.js">
       <img src="https://img.shields.io/github/downloads/re621/re6ai/total?style=flat-square" alt="Download">
     </a>
   </div>

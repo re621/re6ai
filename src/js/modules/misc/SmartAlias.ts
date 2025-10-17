@@ -37,7 +37,7 @@ export class SmartAlias extends RE6Module {
 
   private static tagData: TagData = {};           // stores tag data for the session - count, valid, dnp, etc
 
-  private static tagAliases: TagAlias = {};       // stores e621's alias pairs to avoid repeated lookups
+  private static tagAliases: TagAlias = {};       // stores e6ai's alias pairs to avoid repeated lookups
 
   private static postPageLockout = false;         // Used to avoid calling the API on every post page
 

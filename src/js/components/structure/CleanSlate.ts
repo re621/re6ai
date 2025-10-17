@@ -37,7 +37,7 @@ export class CleanSlate {
     });
 
     // Create themes
-    // E621's native theme switcher does it later, making the background briefly flash blue
+    // E6ai's native theme switcher does it later, making the background briefly flash blue
     actions.push({
       selector: "body",
       action: () => {

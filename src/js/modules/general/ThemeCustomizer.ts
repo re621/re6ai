@@ -5,7 +5,7 @@ import { Util } from "../../components/utility/Util";
 
 /**
  * ThemeCustomizer
- * Built upon e621 Redesign Fixes, this module adds the ability to change and adjust themes
+ * Built upon e6ai Redesign Fixes, this module adds the ability to change and adjust themes
  */
 export class ThemeCustomizer extends RE6Module {
 
