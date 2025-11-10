@@ -2,7 +2,7 @@
   "name": "re6ai",
   "displayName": "re6ai - e6ai Reimagined",
   "namespace": "re621.app",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Subscription manager, mass downloader, thumbnail enhancer, and more for e6ai",
   "author": "bitWolfy",
   "contributors": [
